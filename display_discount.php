@@ -104,7 +104,7 @@
 	</header>
 	<section id="container">
     	<div id="content">
-        	<h1 id="mainContent">Product Discount</h1>
+        	<h1>Product Discount</h1>
 
         	<label>Product Description:</label>
         	<output><?php echo $product_description; ?></output><br />

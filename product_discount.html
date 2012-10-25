@@ -40,6 +40,7 @@
 		
 		#mainContent {
 			text-align: center;
+			color: navy;
 		}
 		
 		/* Presentation */
@@ -48,8 +49,8 @@
 			border: 2px solid navy;
 		}
 		
-		#mainContent {
-			color: navy;
+		selection {
+			overflow: auto;
 		}
 	</style>
 </head>
@@ -81,28 +82,30 @@
 		</nav>
 	</header>
 	<section id="container">
-		<header id="top">
-			<h1>Everything Is On Sale for Halloween</h1>
-		</header>
-		<h2 id="mainContent">Product Discount Calculator</h2>
-		<form action="display_discount.php" method="post">
-			<!-- Data Entry -->
-			<div id="data">
-				<label>Product Description:</label>
-				<input type="text" name="product_description" /><br />
+		<div>
+			<header id="top">
+				<h1>Everything Is On Sale for Halloween</h1>
+			</header>
+			<h2 id="mainContent">Product Discount Calculator</h2>
+			<form action="display_discount.php" method="post">
+				<!-- Data Entry -->
+				<div id="data">
+					<label>Product Description:</label>
+					<input type="text" name="product_description" /><br />
 				
-				<label>List Price:</label>
-				<input type="text" name="list_price" /><br />
+					<label>List Price:</label>
+					<input type="text" name="list_price" /><br />
 				
-				<label>Discount Percent:</label>
-				<input type="text" name="discount_percent" />%<br />
-			</div>
-			<!-- Submit -->
-			<div id="buttons">
-				<label>&nbsp;</label>
-				<input type="submit" value="Calculate Discount" /><br />
-			</div>
-		</form>
+					<label>Discount Percent:</label>
+					<input type="text" name="discount_percent" />%<br />
+				</div>
+				<!-- Submit -->
+				<div id="buttons">
+					<label>&nbsp;</label>
+					<input type="submit" value="Calculate Discount" /><br />
+				</div>
+			</form>
+		</div>
 	</section>
 	<footer>
 		<p>&copy; 2012 Homer J. Simpson</p>

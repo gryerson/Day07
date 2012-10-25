@@ -63,6 +63,7 @@
 		
 		#mainContent {
 			text-align: center;
+			color: navy;
 		}
 		
 		/* Presentation */
@@ -71,8 +72,8 @@
 			border: 2px solid navy;
 		}
 		
-		#mainContent {
-			color: navy;
+		section {
+			overflow: auto;
 		}
 	</style>
 </head>
